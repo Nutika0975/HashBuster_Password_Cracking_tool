@@ -1,74 +1,72 @@
-##HashBuster Password Cracking Tool
-HashBuster is a web-based password hash cracking tool that helps in identifying weak or commonly used passwords. Designed for ethical security assessments, it provides an intuitive interface for cracking hashes using dictionary attacks.
+# HashBuster Password Cracking Tool
 
-🔐 Features
-Multi-Hash Algorithm Support: Supports popular hash types like MD5, SHA-1, SHA-256, and others.
+**HashBuster** is a web-based password hash cracking tool that helps identify weak or commonly used passwords. Designed for ethical security assessments, it provides an intuitive interface for cracking hashes using dictionary-based attacks.
 
-Web-Based UI: Easy-to-use interface built with Node.js and Express.
+---
 
-Custom Wordlists: Upload your own wordlist to test password strength.
+## 🔐 Features
 
-Real-Time Cracking Display: See progress and matched results dynamically.
+- **Multi-Hash Algorithm Support**: Supports popular hash types like **MD5**, **SHA-1**, **SHA-256**, and more.
+- **Web-Based UI**: Clean and easy-to-use interface built using Node.js and Express.
+- **Custom Wordlists**: Upload your own wordlist to perform dictionary attacks.
+- **Real-Time Cracking**: View progress and matched results dynamically during the cracking process.
 
-📦 Installation
-Clone the Repository
+---
 
-bash
-Copy
-Edit
-git clone https://github.com/Nutika0975/HashBuster_Password_Cracking_tool.git
-cd HashBuster_Password_Cracking_tool
-Install Dependencies
+## 📦 Installation
 
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/Nutika0975/HashBuster_Password_Cracking_tool.git
+   cd HashBuster_Password_Cracking_tool
+2. Install Dependencies
 bash
 Copy
 Edit
 npm install
-Start the Application
 
+3. Start the Application
 bash
 Copy
 Edit
-npm start
-Access the Tool
+npm run dev
 
+4. Access the Tool
 Open your browser and go to:
 http://localhost:3000
 
-🧠 Wordlist Requirement
-The tool uses a dictionary-based attack, and it requires a wordlist file named:
-
-Copy
-Edit
+##🧠 Wordlist Requirement
+The tool uses a dictionary-based attack and requires a wordlist file named:
 rockyou.txt
-⚠️ Note:
-This file is not included in the repository due to its large size.
 
-You can download rockyou.txt from trusted security resources such as:
+###⚠️ Important:
+The rockyou.txt file is not included in this repository due to its large size.
 
-SecLists
+You can download it from trusted sources such as:
 
-Kali Linux /usr/share/wordlists/rockyou.txt
+SecLists on GitHub
 
-Make sure to place the rockyou.txt file in the project directory.
+Kali Linux users: located at /usr/share/wordlists/rockyou.txt
 
-🚀 Future Scope
-GPU Acceleration: Speed up hash cracking using GPU via CUDA/OpenCL integration.
+After downloading, place rockyou.txt in the root directory of this project.
 
-More Hashing Algorithms: Add support for bcrypt, NTLM, SHA-512, and custom hash formats.
+##🚀 Future Scope
+✅ GPU Acceleration: Leverage GPU power using CUDA/OpenCL for faster hash cracking.
 
-Cloud Integration: Enable distributed cracking over multiple machines.
+✅ Additional Hashing Algorithms: Add support for bcrypt, NTLM, SHA-512, and more.
 
-Session Management: Save and resume cracking sessions.
+✅ Cloud/Distributed Cracking: Enable multi-machine or cloud-based distributed cracking.
 
-Logging and Reporting: Generate structured output reports of cracked hashes (planned).
+✅ Session Management: Save progress and resume cracking sessions later.
 
-🤝 Contributing
-Contributions are welcome! Feel free to fork the repo and open a pull request with improvements or new features.
+✅ Logging and Reporting: Structured output/report generation for cracked hashes.
 
-📜 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+##🤝 Contributing
+Contributions are welcome! Feel free to fork the repository, make changes, and submit a pull request with your improvements or new features.
 
-⚠️ Disclaimer
-This tool is provided for educational and authorized penetration testing purposes only.
-Do not use it on systems without explicit permission. Unauthorized use is illegal.
+##📜 License
+This project is licensed under the MIT License. See the LICENSE file for more information.
+
+##⚠️ Disclaimer
+This tool is intended strictly for educational purposes and authorized security testing only.
+Unauthorized use is illegal and unethical. Always obtain proper permission before testing any system.
