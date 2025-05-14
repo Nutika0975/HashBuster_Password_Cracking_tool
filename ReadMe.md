@@ -35,11 +35,11 @@ npm run dev
 Open your browser and go to:
 http://localhost:3000
 
-##🧠 Wordlist Requirement
+## 🧠 Wordlist Requirement
 The tool uses a dictionary-based attack and requires a wordlist file named:
 rockyou.txt
 
-###⚠️ Important:
+### ⚠️ Important:
 The rockyou.txt file is not included in this repository due to its large size.
 
 You can download it from trusted sources such as:
@@ -50,7 +50,7 @@ Kali Linux users: located at /usr/share/wordlists/rockyou.txt
 
 After downloading, place rockyou.txt in the root directory of this project.
 
-##🚀 Future Scope
+## 🚀 Future Scope
 ✅ GPU Acceleration: Leverage GPU power using CUDA/OpenCL for faster hash cracking.
 
 ✅ Additional Hashing Algorithms: Add support for bcrypt, NTLM, SHA-512, and more.
@@ -61,12 +61,12 @@ After downloading, place rockyou.txt in the root directory of this project.
 
 ✅ Logging and Reporting: Structured output/report generation for cracked hashes.
 
-##🤝 Contributing
+## 🤝 Contributing
 Contributions are welcome! Feel free to fork the repository, make changes, and submit a pull request with your improvements or new features.
 
-##📜 License
+## 📜 License
 This project is licensed under the MIT License. See the LICENSE file for more information.
 
-##⚠️ Disclaimer
+## ⚠️ Disclaimer
 This tool is intended strictly for educational purposes and authorized security testing only.
 Unauthorized use is illegal and unethical. Always obtain proper permission before testing any system.
